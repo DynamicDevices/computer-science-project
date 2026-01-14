@@ -70,9 +70,10 @@ The solution will include:
 ## Success Criteria
 
 ### Functional (Measurable)
-- ✅ System reads data from all three sensors (BME 690, particulate, CO2) with accuracy within manufacturer specifications
+- ✅ System reads data from BME 690 sensor (8x8 array) via Application Board 3.1 (PN: 0440.AB0.211)
+- ✅ System reads data from all sensors (BME 690, particulate, CO2) with accuracy within manufacturer specifications
 - ✅ Sensor data transmitted via MQTT with <1% packet loss and <100ms latency
-- ✅ Web interface displays real-time data with <2 second update latency
+- ✅ Web interface (Grafana) displays real-time data with <2 second update latency
 - ✅ System detects sensor failures within 5 seconds and continues operating (graceful degradation)
 
 ### Quality
@@ -90,11 +91,18 @@ The solution will include:
 ## Technical Approach
 
 - **Language**: Python (excellent for sensors, MQTT, web development)
-- **Sensors**: Bosch BME 690 (gas), particulate sensor, CO2 sensor (exact model numbers to be confirmed)
+- **Hardware Platform**: 
+  - Bosch Application Board 3.1 (PN: 0440.AB0.211)
+  - BMV080 Shuttle Board with BME 690 sensor (SPN: 0273.SB0.000)
+  - Additional sensors: Particulate sensor, CO2 sensor (to be added)
+- **Sensors**: 
+  - BME 690 gas sensor (8x8 array, APP3.0) - **Received**
+  - Particulate sensor - To be received
+  - CO2 sensor - To be received
 - **Communication**: MQTT protocol (paho-mqtt library) - Cloud or self-hosted broker
 - **Data Storage**: Prometheus (time-series database for sensor data)
 - **Web Visualization**: Grafana (monitoring and visualization platform)
-- **Development**: Iterative, starting with evaluation boards (EVKs)
+- **Development**: Iterative, starting with evaluation boards (EVKs) - **EVKs received**
 
 ---
 
