@@ -23,6 +23,13 @@ Environmental monitoring is increasingly important for councils, companies, and 
 
 This project will develop the software component of a multi-sensor environmental monitoring board, focusing on sensor driver development, data acquisition, MQTT communication, and web-based data visualization. The system will integrate with Bosch BME 690 gas sensors, particulate sensors, and CO2 sensors to provide comprehensive environmental monitoring capabilities.
 
+**Specific Use Cases**:
+- **Classroom CO2 Monitoring**: Monitor CO2 levels in classrooms to understand impact on learning and cognitive function
+- **Indoor Air Quality**: Detect vaping, smoking, and other air quality issues in indoor environments
+- **Fire Prevention**: Early detection of burning materials (plastics, wiring) before ignition
+- **Presence Detection**: Detect occupancy in rooms through environmental changes
+- **Pollution Monitoring**: Track air pollution levels, particularly relevant for monitoring diesel emissions in port areas (e.g., Liverpool docks)
+
 ### Why This Problem Lends Itself to a Computational Solution
 
 This problem requires computational methods because:
@@ -49,10 +56,14 @@ The solution will include:
 ## Stakeholders
 
 1. **Hardware Team** (Michael Hull, Ollie Hull) - Designing sensor board hardware
+   - Anthony will assist with hardware development and prepare test/demonstration software
 2. **Software Lead** (Alex Lennon) - Technical guidance and mentoring
-3. **End Users** (Councils, Companies) - Future customers requiring environmental monitoring
+   - Primary focus: Software development for OCR assessment
+3. **End Users** (Councils, Companies, Schools) - Future customers requiring environmental monitoring
+   - Use cases: Classroom monitoring, pollution tracking, safety monitoring
 4. **Computer Science Teacher** - Project supervisor and OCR assessment
 5. **OCR Examiners** - Assessment evaluators
+   - **Note**: OCR assessment focuses on software component (Anthony's primary work)
 
 ---
 
@@ -79,9 +90,10 @@ The solution will include:
 ## Technical Approach
 
 - **Language**: Python (excellent for sensors, MQTT, web development)
-- **Sensors**: Bosch BME 690 (gas), particulate sensor, CO2 sensor
-- **Communication**: MQTT protocol (paho-mqtt library)
-- **Web**: Flask/FastAPI backend, HTML/CSS/JavaScript frontend
+- **Sensors**: Bosch BME 690 (gas), particulate sensor, CO2 sensor (exact model numbers to be confirmed)
+- **Communication**: MQTT protocol (paho-mqtt library) - Cloud or self-hosted broker
+- **Data Storage**: Prometheus (time-series database for sensor data)
+- **Web Visualization**: Grafana (monitoring and visualization platform)
 - **Development**: Iterative, starting with evaluation boards (EVKs)
 
 ---
@@ -89,11 +101,17 @@ The solution will include:
 ## Project Scope
 
 ### In Scope
-- Sensor driver development (3 sensors)
-- MQTT communication implementation
-- Web interface for data visualization
-- Data logging and error handling
-- Integration with evaluation boards
+- **Software Development** (Primary - OCR assessment focus):
+  - Sensor driver development (3 sensors: BME 690, particulate, CO2)
+  - MQTT communication implementation (cloud or self-hosted broker)
+  - Prometheus integration for time-series data storage
+  - Grafana dashboard configuration for data visualization
+  - Data processing algorithms (calibration, filtering, validation)
+  - Error handling and sensor failure detection
+  - Integration with evaluation boards (EVKs)
+- **Hardware Assistance** (Secondary):
+  - Assist hardware team with development
+  - Prepare test and demonstration software for hardware validation
 
 ### Out of Scope
 - Hardware design (hardware team)
@@ -117,10 +135,28 @@ The solution will include:
 
 ## OCR Assessment Alignment
 
-- ✅ **Analysis (10 marks)**: Problem, stakeholders, research, requirements, success criteria
-- ✅ **Design (15 marks)**: Decomposition, algorithms, data structures, test plans
-- ✅ **Development (25 marks)**: Substantial Python programming, iterative development, team collaboration
-- ✅ **Evaluation (20 marks)**: Measurable criteria, stakeholder feedback, performance analysis
+- ✅ **Analysis (10 marks)**: 
+  - Problem statement with computational justification
+  - Multiple stakeholders identified (hardware team, end users, teacher, examiners)
+  - Research plan: 5+ similar solutions (commercial sensor boards, open source projects, visualization platforms)
+  - Requirements specification with measurable success criteria
+  - Hardware/software requirements (Python, MQTT, Prometheus, Grafana)
+- ✅ **Design (15 marks)**: 
+  - System decomposition (sensor drivers → data processing → MQTT → Prometheus → Grafana)
+  - Algorithm design (sensor communication, data processing, MQTT, Prometheus integration)
+  - Data structures (time-series data, sensor data buffering)
+  - Test plans (iterative and post-development)
+- ✅ **Development (25 marks)**: 
+  - **Primary Focus**: Software development (sensor drivers, MQTT, Prometheus, Grafana)
+  - Substantial Python programming demonstrating A Level skills
+  - Iterative development approach
+  - Team collaboration (hardware team, software lead)
+  - Version control (Git) with evidence throughout
+- ✅ **Evaluation (20 marks)**: 
+  - Measurable success criteria (sensor accuracy, latency, reliability)
+  - Stakeholder feedback (hardware team, end users)
+  - Performance analysis (sensor reading rates, data transmission, visualization latency)
+  - Limitations and future development
 
 ---
 
@@ -134,12 +170,68 @@ The solution will include:
 
 ---
 
+## Research Plan
+
+### OCR Requirement: Research 5+ Similar Solutions
+
+The Analysis section requires research into at least 5 existing similar solutions. Research will cover:
+
+1. **Commercial Sensor Boards** (2-3 solutions):
+   - Arduino sensor shields and libraries (BME680, CO2 sensors)
+   - Raspberry Pi sensor HATs (Enviro+, Sense HAT)
+   - Commercial environmental monitoring systems (Airthings, PurpleAir)
+
+2. **Open Source Projects** (2-3 solutions):
+   - Home Assistant sensor integrations
+   - ESPHome/ESP32 MQTT sensor projects
+   - Open source sensor driver implementations
+
+3. **Data Visualization Solutions** (1-2 solutions):
+   - Grafana sensor dashboards and configurations
+   - Prometheus + Grafana monitoring setups
+   - Other IoT visualization platforms
+
+**Research Methodology**:
+- Analyze architecture, technologies, strengths, weaknesses
+- Gather screenshots, diagrams, code examples
+- Get stakeholder feedback on solutions
+- Justify our approach based on research findings
+- Link research to requirements specification
+
+**Timeline**: Weeks 1-2 (Analysis phase)
+
+*See `RESEARCH_PLAN_DETAILED.md` for comprehensive research plan.*
+
+---
+
+## Notes for Teacher
+
+**Questions to Confirm**:
+- [ ] OCR submission format requirements (Word? PDF? Template?)
+- [ ] Specific deadlines and checkpoints
+- [ ] Teacher's expected involvement and meeting schedule
+- [ ] Any additional requirements or sections needed
+
+**Current Status**:
+- Using OCR template format for now
+- Will update based on teacher feedback
+
+---
+
 ## Approval
 
 **Student Signature**: _________________________ **Date**: _______________
 
 **Teacher Approval**: _________________________ **Date**: _______________
 
+**Teacher Comments**:
+
+_______________________________________________________________________
+
+_______________________________________________________________________
+
+_______________________________________________________________________
+
 ---
 
-*This is a template/example. Customize with your specific details and get teacher approval.*
+*This proposal is based on team meeting decisions and OCR requirements. Will be updated based on teacher feedback.*
