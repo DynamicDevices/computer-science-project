@@ -8,14 +8,16 @@
 ## ✅ Answered Questions
 
 1. ✅ **Programming Language**: Python
-2. ✅ **MQTT Broker**: Cloud or self-hosted
+2. ✅ **MQTT Broker**: Mosquitto (local, can move to cloud later)
 3. ✅ **Web Visualization**: Grafana
 4. ✅ **Data Storage**: Prometheus
-5. ✅ **Anthony's Work**: Software focus (OCR), assists hardware, test/demo software
-6. ✅ **Research Plan**: Detailed plan created (5+ solutions)
-7. ✅ **Use Cases**: Classroom CO2, vaping, burning, presence, docks pollution
-8. ✅ **BME 690 Sensor**: Received - BMV080 Shuttle Board (SPN: 0273.SB0.000)
-9. ✅ **Application Board**: Received - Application Board 3.1 (PN: 0440.AB0.211)
+5. ✅ **Development Environment**: VS Code (with Cursor where allowed)
+6. ✅ **Testing Framework**: pytest
+7. ✅ **Anthony's Work**: Software focus (OCR), assists hardware, test/demo software
+8. ✅ **Research Plan**: Detailed plan created (5+ solutions)
+9. ✅ **Use Cases**: Classroom CO2, vaping, burning, presence, docks pollution
+10. ✅ **BME 690 Sensor**: Received - BMV080 Shuttle Board (SPN: 0273.SB0.000)
+11. ✅ **Application Board**: Received - Application Board 3.1 (PN: 0440.AB0.211)
 
 ---
 
@@ -53,27 +55,25 @@
 - **Who**: Alex & Anthony to decide
 - **Note**: Application Board 3.1 may have its own processor - need to check
 
-### 4. Development Environment/IDE
+### 4. Development Environment/IDE ✅
 - **Question**: What IDE/editor?
   - VS Code?
   - PyCharm?
   - Other?
-- **Status**: Not specified
-- **Action**: Choose IDE
+- **Status**: ✅ **ANSWERED** - VS Code (with Cursor where allowed)
+- **Action**: ✅ Complete
 - **Impact**: Resources section, setup guide
-- **Who**: Anthony & Alex to decide
-- **Recommendation**: VS Code (free, widely used, good Python support)
+- **Who**: ✅ Decided
 
-### 5. Testing Framework
+### 5. Testing Framework ✅
 - **Question**: What testing framework?
   - pytest?
   - unittest?
   - Other?
-- **Status**: pytest mentioned but not confirmed
-- **Action**: Confirm testing framework
+- **Status**: ✅ **ANSWERED** - pytest (Python testing framework)
+- **Action**: ✅ Complete
 - **Impact**: Technical approach
-- **Who**: Alex & Anthony to decide
-- **Recommendation**: pytest (standard for Python, well-documented)
+- **Who**: ✅ Decided
 
 ### 6. Timeline with Actual Dates
 - **Question**: Convert "weeks 1-2" to actual dates
@@ -120,15 +120,14 @@
 - **Who**: Alex & Anthony to define
 - **Recommendation**: Start with BME 690 driver (independent), then add others
 
-### 10. MQTT Broker - Specific Choice
+### 10. MQTT Broker - Specific Choice ✅
 - **Question**: Which specific broker?
   - Cloud: HiveMQ Cloud? AWS IoT? Other?
   - Self-hosted: Mosquitto? Where hosted?
-- **Status**: "Cloud or self-hosted" - need to decide
-- **Action**: Choose specific broker
+- **Status**: ✅ **ANSWERED** - Mosquitto (local broker, can move to cloud later)
+- **Action**: ✅ Complete
 - **Impact**: Setup instructions, resources
-- **Who**: Alex & Anthony to decide
-- **Recommendation**: Start with local Mosquitto for development, can move to cloud later
+- **Who**: ✅ Decided
 
 ---
 
@@ -208,9 +207,9 @@
 **Must Answer**:
 1. ❌ Teacher questions (submission format, deadlines) - **Anthony to ask**
 2. ⚠️ Hardware platform (what runs software?) - **Alex & Anthony**
-3. ⚠️ Development environment (IDE) - **Quick decision: VS Code**
-4. ⚠️ Testing framework - **Quick decision: pytest**
-5. ⚠️ MQTT broker specific choice - **Quick decision: Start with local Mosquitto**
+3. ✅ Development environment (IDE) - **ANSWERED: VS Code with Cursor**
+4. ✅ Testing framework - **ANSWERED: pytest**
+5. ✅ MQTT broker specific choice - **ANSWERED: Mosquitto**
 
 **Should Answer**:
 6. ⚠️ Timeline with actual dates - **Need OCR deadlines from teacher**

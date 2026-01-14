@@ -99,9 +99,11 @@ The solution will include:
   - BME 690 gas sensor (8x8 array, APP3.0) - **Received**
   - Particulate sensor - To be received
   - CO2 sensor - To be received
-- **Communication**: MQTT protocol (paho-mqtt library) - Cloud or self-hosted broker
+- **Communication**: MQTT protocol (paho-mqtt library) - Mosquitto broker (local, can move to cloud later)
 - **Data Storage**: Prometheus (time-series database for sensor data)
 - **Web Visualization**: Grafana (monitoring and visualization platform)
+- **Development Environment**: VS Code (with Cursor where allowed)
+- **Testing Framework**: pytest (Python testing framework)
 - **Development**: Iterative, starting with evaluation boards (EVKs) - **EVKs received**
 
 ---
