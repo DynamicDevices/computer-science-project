@@ -14,7 +14,7 @@ This guide helps team members contribute effectively to the project.
 ### 1. Getting Started
 1. Clone the repository
 2. Set up your development environment
-3. Read the README and PROJECT_PLAN
+3. Read the README and docs/project_management/PROJECT_PLAN.md
 4. Check the current project status
 
 ### 2. Making Changes
