@@ -196,7 +196,7 @@ Based on OCR requirements:
 
 ## Resources Created
 
-- `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Comprehensive requirements breakdown
+- `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Comprehensive requirements breakdown
 - `resources/OCR_H446_Project_Guide.pdf` - Original OCR guide
 - `resources/OCR_H446_Project_Guide.txt` - Extracted text for reference
 - This document - Key findings summary

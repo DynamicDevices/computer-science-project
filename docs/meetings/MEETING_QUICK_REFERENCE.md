@@ -142,14 +142,14 @@
 - Measurable success criteria
 - Link everything to requirements
 
-**See**: `docs/OCR_REQUIREMENTS_ANALYSIS.md` for full details
+**See**: `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` for full details
 
 ---
 
 ## Next Steps After Meeting
 
 1. [ ] Complete all action items
-2. [ ] Update REQUIREMENTS.md
+2. [ ] Update docs/01_analysis/REQUIREMENTS.md
 3. [ ] Begin Analysis phase documentation
 4. [ ] Set up development environment
 5. [ ] Schedule next meeting

@@ -36,7 +36,7 @@
 - [ ] What are our success criteria for both aspects?
 
 **OCR Reference**: 
-- See `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Overview section
+- See `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Overview section
 - Key principle: Quality over quantity, realistic scope
 
 **Decision Required**: 
@@ -74,7 +74,7 @@
 **OCR Reference**:
 - Analysis section requires: Hardware and software requirements specification
 - Design section requires: System architecture considering hardware constraints
-- See `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Section 1: Analysis, Hardware Requirements
+- See `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Section 1: Analysis, Hardware Requirements
 
 **Decisions Required**:
 - [ ] Final sensor list
@@ -120,7 +120,7 @@
 **OCR Reference**:
 - Analysis section: Requirements specification with measurable success criteria
 - Design section: System architecture, algorithms, data structures
-- See `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Section 1: Analysis, Requirements Specification
+- See `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Section 1: Analysis, Requirements Specification
 
 **Decisions Required**:
 - [ ] Core software features (must have)
@@ -161,8 +161,8 @@
 **OCR Reference**:
 - Development section: Must demonstrate programming abilities in high-level language
 - Project must be challenging enough for A Level (beyond GCSE)
-- See `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Section 3: Development & Testing
-- See `KEY_FINDINGS.md` - Anthony's Learning Path
+- See `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Section 3: Development & Testing
+- See `docs/reference/KEY_FINDINGS.md` - Anthony's Learning Path
 
 **Suggested Work Breakdown**:
 
@@ -206,7 +206,7 @@
 - [ ] Can we create measurable success criteria?
 - [ ] Can we link requirements to research evidence?
 
-**OCR Reference**: `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Section 1: Analysis
+**OCR Reference**: `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Section 1: Analysis
 
 #### Design Section (15 marks)
 - [ ] Can we create decomposition diagrams?
@@ -215,7 +215,7 @@
 - [ ] Can we create test plans?
 - [ ] Can we justify all design decisions?
 
-**OCR Reference**: `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Section 2: Design
+**OCR Reference**: `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Section 2: Design
 
 #### Development Section (25 marks)
 - [ ] Will Anthony's code be substantial enough?
@@ -224,7 +224,7 @@
 - [ ] Can we test thoroughly?
 - [ ] Can we use version control effectively?
 
-**OCR Reference**: `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Section 3: Development & Testing
+**OCR Reference**: `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Section 3: Development & Testing
 
 #### Evaluation Section (20 marks)
 - [ ] Can we evaluate against success criteria?
@@ -233,7 +233,7 @@
 - [ ] Can we identify limitations honestly?
 - [ ] Can we propose future development?
 
-**OCR Reference**: `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Section 4: Evaluation
+**OCR Reference**: `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Section 4: Evaluation
 
 **Decisions Required**:
 - [ ] Confirm project meets all OCR criteria
@@ -272,7 +272,7 @@
 **OCR Reference**:
 - Must use high-level text-based programming language
 - Can use libraries/APIs but judged on YOUR code
-- See `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Programming Languages section
+- See `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Programming Languages section
 
 **Decisions Required**:
 - [ ] Programming language (recommend: Python)
@@ -323,7 +323,7 @@
 - [ ] Week 14: Final documentation, reflection, submission
 
 **OCR Reference**:
-- See `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Timeline considerations
+- See `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Timeline considerations
 - See `PROJECT_PLAN.md` - 14-week timeline
 
 **Decisions Required**:
@@ -364,7 +364,7 @@
 **OCR Reference**:
 - Analysis section: Measurable success criteria required
 - Avoid vague criteria like "should work well"
-- See `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Success Criteria section
+- See `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Success Criteria section
 
 **Example Success Criteria for Sensor Board**:
 - ✅ "Temperature sensor reads within ±0.5°C of reference"
@@ -418,7 +418,7 @@
 - Analysis section: Research at least 5 similar solutions
 - Include screenshots, diagrams, analysis
 - Stakeholder meetings required
-- See `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Research section
+- See `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Research section
 
 **Decisions Required**:
 - [ ] List of solutions to research (5+)
@@ -572,7 +572,7 @@ After this meeting, we should have:
 - [ ] Bring datasheets if available
 
 **For Anthony**:
-- [ ] Review OCR requirements document (`docs/OCR_REQUIREMENTS_ANALYSIS.md`)
+- [ ] Review OCR requirements document (`docs/reference/OCR_REQUIREMENTS_ANALYSIS.md`)
 - [ ] Review project plan (`PROJECT_PLAN.md`)
 - [ ] Think about what aspects interest you
 - [ ] Prepare any questions
@@ -614,10 +614,10 @@ After this meeting, we should have:
 
 ## References
 
-- `docs/OCR_REQUIREMENTS_ANALYSIS.md` - Comprehensive OCR requirements
-- `KEY_FINDINGS.md` - Key findings from OCR review
-- `PROJECT_PLAN.md` - Overall project plan
-- `REQUIREMENTS.md` - Requirements template
+- `docs/reference/OCR_REQUIREMENTS_ANALYSIS.md` - Comprehensive OCR requirements
+- `docs/reference/KEY_FINDINGS.md` - Key findings from OCR review
+- `docs/project_management/PROJECT_PLAN.md` - Overall project plan
+- `docs/01_analysis/REQUIREMENTS.md` - Requirements template
 - `KICKOFF_CHECKLIST.md` - General kickoff checklist
 
 ---

@@ -26,7 +26,7 @@ Use this checklist to ensure the project starts smoothly and all team members ar
 - [ ] Discuss team roles and responsibilities
 
 ### 2. Requirements Discussion
-- [ ] Review REQUIREMENTS.md template
+- [ ] Review docs/01_analysis/REQUIREMENTS.md template
 - [ ] Hardware team presents sensor board specifications
 - [ ] Software team discusses software requirements
 - [ ] Define functional requirements

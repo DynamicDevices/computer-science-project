@@ -210,7 +210,7 @@ The Analysis section requires research into at least 5 existing similar solution
 
 **Timeline**: Weeks 1-2 (Analysis phase)
 
-*See `RESEARCH_PLAN_DETAILED.md` for comprehensive research plan.*
+*See `docs/01_analysis/RESEARCH_PLAN_DETAILED.md` for comprehensive research plan.*
 
 ---
 

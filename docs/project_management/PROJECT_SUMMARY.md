@@ -10,7 +10,7 @@ A complete project structure for your sensor board project that aligns with OCR 
 sensor-board/
 ├── README.md                 # Main project overview
 ├── PROJECT_PLAN.md           # Detailed project plan with OCR alignment
-├── REQUIREMENTS.md           # Requirements template (to be filled in)
+├── docs/01_analysis/REQUIREMENTS.md  # Requirements template (to be filled in)
 ├── STUDENT_GUIDE.md          # Guide for Anthony
 ├── KICKOFF_CHECKLIST.md      # Checklist for project kickoff
 ├── CONTRIBUTING.md           # Contribution guidelines
@@ -62,7 +62,7 @@ The project is structured to meet all OCR requirements:
 
 ### Immediate (Before Kickoff)
 1. ✅ Review PROJECT_PLAN.md
-2. ✅ Review REQUIREMENTS.md template
+2. ✅ Review docs/01_analysis/REQUIREMENTS.md template
 3. ⬜ Obtain OCR specification document
 4. ⬜ Place OCR document in `resources/` folder
 5. ⬜ Review KICKOFF_CHECKLIST.md
@@ -74,7 +74,7 @@ The project is structured to meet all OCR requirements:
 3. Define software requirements
 4. Select technology stack
 5. Agree on timeline and milestones
-6. Complete REQUIREMENTS.md
+6. Complete docs/01_analysis/REQUIREMENTS.md
 
 ### Week 1-2: Analysis Phase
 1. Complete problem statement
@@ -108,7 +108,7 @@ The project is structured to meet all OCR requirements:
 ## Key Documents
 
 - **PROJECT_PLAN.md**: Overall project structure, timeline, OCR alignment
-- **REQUIREMENTS.md**: Detailed requirements (to be completed)
+- **docs/01_analysis/REQUIREMENTS.md**: Detailed requirements (to be completed)
 - **STUDENT_GUIDE.md**: Guide for Anthony to get started
 - **KICKOFF_CHECKLIST.md**: Checklist for project kickoff meeting
 - **CONTRIBUTING.md**: Guidelines for team contributions

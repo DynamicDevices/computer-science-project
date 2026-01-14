@@ -47,7 +47,7 @@ sensor-board/
 ### Week 1: Setup and Learning
 - [ ] Read this guide
 - [ ] Read the PROJECT_PLAN.md
-- [ ] Read the REQUIREMENTS.md
+- [ ] Read the docs/01_analysis/REQUIREMENTS.md
 - [ ] Set up Git (if not already done)
 - [ ] Clone the repository
 - [ ] Set up development environment
@@ -166,7 +166,7 @@ sensor-board/
 ## Next Steps
 
 1. Read PROJECT_PLAN.md to understand the full project
-2. Review REQUIREMENTS.md to understand what we're building
+2. Review docs/01_analysis/REQUIREMENTS.md to understand what we're building
 3. Set up your development environment
 4. Start with the analysis phase documentation
 5. Begin learning the programming language we'll use
